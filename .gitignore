@@ -1,0 +1,31 @@
+# Build output
+.gradle/
+.kotlin/
+build/
+app/build/
+captures/
+*.apk
+*.aab
+*.idsig
+
+# Machine-specific settings (SDK path, user name)
+local.properties
+.idea/
+*.iml
+.vscode/
+
+# Signing keys and secrets: never commit
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
